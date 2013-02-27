@@ -1,5 +1,5 @@
 {
-	"name": "silverstripe/wishlist",
+	"name": "sunnysideup/wishlist",
 	"type": "silverstripe-module",
 	"description": "allows users to create favourites using any page",
 	"homepage": "http://www.silverstripe-webdevelopment.com",
