@@ -165,7 +165,7 @@ class WishListDecorator_Controller extends Extension {
 
 	/**
 	 * Return wish list data from current member as an array.
-	 * @return array
+	 * @return array | null
 	 */
 	public static function get_wish_list_from_member_array() {
 		$member = self::get_member_for_wishlist();
@@ -176,7 +176,11 @@ class WishListDecorator_Controller extends Extension {
 		if(!is_string($string)) {
 			$string = '';
 		}
-		return unserialize($string);
+		$result = @unserialize($string);
+		if(is_array($result)) {
+			return $result;
+		}
+		return null;
 	}
 
 	/**
