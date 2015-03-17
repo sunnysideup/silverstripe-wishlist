@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="WishListPage" namespace="" name="WishListPage" abstract="false" final="false" start="10" end="94">
+  <file path="/var/www/_modules/wishlist/trunk/docs/en/phpdox/../../../code" file="WishListPage.php" realpath="/var/www/_modules/wishlist/trunk/code/WishListPage.php" size="6487" time="2015-03-14T10:23:21+13:00" unixtime="1426281801" sha1="4b2192b94d01e933eb3df38c06410dd01ed265c0" relative="code/WishListPage.php"/>
+  <docblock>
+    <description compact="author nicolaas[at]sunnysideup.co.nz"/>
+  </docblock>
+  <extends full="Page" namespace="" name="Page"/>
+  <member name="icon" type="string" default="&quot;wishlist/images/treeicons/WishListPage&quot;" visibility="public" line="15">
+    <docblock>
+      <description compact="Icon to use for this page type."/>
+    </docblock>
+  </member>
+  <member name="db" type="array" visibility="public" line="20">
+    <docblock>
+      <description compact="Additional page database fields."/>
+    </docblock>
+  </member>
+  <method name="getCMSFields" start="40" end="55" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Add page CMS fields."/>
+      <return type="object">
+        <type full="FieldSet" namespace="" name="FieldSet"/>
+      </return>
+    </docblock>
+  </method>
+  <method name="requireDefaultRecords" start="61" end="91" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Add default records to database.">Make sure you call parent::requireDefaultRecords().</description>
+    </docblock>
+  </method>
+</class>

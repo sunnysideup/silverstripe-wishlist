@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns="http://xml.phpdox.net/src" full="WishListPage_Controller" namespace="" name="WishListPage_Controller" abstract="false" final="false" start="96" end="139">
+  <file path="/var/www/_modules/wishlist/trunk/docs/en/phpdox/../../../code" file="WishListPage.php" realpath="/var/www/_modules/wishlist/trunk/code/WishListPage.php" size="6487" time="2015-03-14T10:23:21+13:00" unixtime="1426281801" sha1="4b2192b94d01e933eb3df38c06410dd01ed265c0" relative="code/WishListPage.php"/>
+  <extends full="Page_Controller" namespace="" name="Page_Controller"/>
+  <method name="init" start="101" end="104" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Initialisation function that is run before any action on the controller is called."/>
+    </docblock>
+  </method>
+  <method name="CanSaveWishList" start="110" end="112" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Return whether there are wish list items to be saved."/>
+      <return type="boolean"/>
+    </docblock>
+  </method>
+  <method name="CanRetrieveWishList" start="118" end="127" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Return whether there are wish list items to be retrieved (that haven't already been retrieved)."/>
+      <return type="boolean"/>
+    </docblock>
+  </method>
+  <method name="CanClearWishList" start="133" end="135" abstract="false" final="false" static="false" visibility="public">
+    <docblock>
+      <description compact="Return whether the member wish list is non-empty and hence can be cleared."/>
+      <return type="boolean"/>
+    </docblock>
+  </method>
+</class>

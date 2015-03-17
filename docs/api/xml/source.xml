@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source xmlns="http://xml.phpdox.net/src">
+  <dir name="/var/www/_modules/wishlist/trunk">
+    <file name="_config.php" size="839" time="2015-03-14T10:23:21+13:00" unixtime="1426281801" sha1="d774c11429c8e9f61262faca0c882917762b881b" xml="tokens/_config.php.xml"/>
+    <dir name="code">
+      <dir name="model">
+        <file name="WishListMemberDecorator.php" size="1430" time="2015-03-14T10:23:21+13:00" unixtime="1426281801" sha1="bfa43d3feffbdbd721884fd85e04b732a0360d8e" xml="tokens/code/model/WishListMemberDecorator.php.xml"/>
+        <file name="WishListDecorator.php" size="12454" time="2015-03-14T10:23:21+13:00" unixtime="1426281801" sha1="b805ef9b59e678cf124fdbcf34ec29a60de8a8d7" xml="tokens/code/model/WishListDecorator.php.xml"/>
+      </dir>
+      <file name="WishListPage.php" size="6487" time="2015-03-14T10:23:21+13:00" unixtime="1426281801" sha1="4b2192b94d01e933eb3df38c06410dd01ed265c0" xml="tokens/code/WishListPage.php.xml"/>
+    </dir>
+    <file name="WishListMember.php" size="148" time="2015-03-14T10:23:20+13:00" unixtime="1426281800" sha1="14e1fe4a8a0dca440d8eeac4afb60cfdd2fc937d" xml="tokens/WishListMember.php.xml"/>
+  </dir>
+</source>

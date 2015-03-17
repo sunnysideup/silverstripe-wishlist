@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index xmlns="http://xml.phpdox.net/src" basedir="/var/www/_modules/wishlist/trunk">
+  <namespace name="">
+    <class name="WishListMemberDecorator" src="code/model/WishListMemberDecorator.php" xml="classes/WishListMemberDecorator.xml"/>
+    <class name="WishListDecorator_DataObject" src="code/model/WishListDecorator.php" xml="classes/WishListDecorator_DataObject.xml"/>
+    <class name="WishListDecorator_Controller" src="code/model/WishListDecorator.php" xml="classes/WishListDecorator_Controller.xml"/>
+    <class name="WishListPage" src="code/WishListPage.php" description="author nicolaas[at]sunnysideup.co.nz" xml="classes/WishListPage.xml"/>
+    <class name="WishListPage_Controller" src="code/WishListPage.php" xml="classes/WishListPage_Controller.xml"/>
+    <class name="WishListMember" src="WishListMember.php" description="fake member for wish list..." xml="classes/WishListMember.xml"/>
+  </namespace>
+</index>
