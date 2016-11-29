@@ -6,10 +6,9 @@
  *
  */
 
-class WishListMember extends DataObject {
-
-	static $db = array(
-		"WishList" => "Text"
-	);
-
+class WishListMember extends DataObject
+{
+    public static $db = array(
+        "WishList" => "Text"
+    );
 }
