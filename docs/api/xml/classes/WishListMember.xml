@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<class xmlns="http://xml.phpdox.net/src" full="WishListMember" namespace="" name="WishListMember" abstract="false" final="false" start="9" end="15">
-  <file path="/var/www/_modules/wishlist/trunk/docs/en/phpdox/../../.." file="WishListMember.php" realpath="/var/www/_modules/wishlist/trunk/WishListMember.php" size="148" time="2015-03-14T10:23:20+13:00" unixtime="1426281800" sha1="14e1fe4a8a0dca440d8eeac4afb60cfdd2fc937d" relative="WishListMember.php"/>
-  <docblock>
-    <description compact="fake member for wish list..."/>
-  </docblock>
-  <extends full="DataObject" namespace="" name="DataObject"/>
-  <member name="db" type="array" visibility="public" line="11"/>
-</class>
